@@ -77,7 +77,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: id1.antonbrc.com
-- name: BIZ 104.17.3.81 Herza
+- name: BIZ 104.17.3.81 IKD
   type: trojan
   server: 104.17.3.81
   port: 443
@@ -90,7 +90,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: id1.antonbrc.com
-- name: BIZ 104.17.3.81 IKD
+- name: BIZ 104.17.3.81 Herza
   type: trojan
   server: 104.17.3.81
   port: 443
@@ -102,4 +102,4 @@ proxies:
   ws-opts:
     path: "/trojan"
     headers:
-      Host: id2.antonbrc.com
+      Host: id4.antonbrc.com
