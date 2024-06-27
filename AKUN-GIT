@@ -1,0 +1,105 @@
+proxies:
+- name: BIZ ava game id4
+  type: trojan
+  server: ava.game.naver.com.id4.antonbrc.com
+  port: 443
+  password: ohmd2
+  udp: true
+  sni: id4.antonbrc.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: id4.antonbrc.com
+- name: BIZ ava game id1
+  type: trojan
+  server: ava.game.naver.com.id1.antonbrc.com
+  port: 443
+  password: ohmd1
+  udp: true
+  sni: id1.antonbrc.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: id1.antonbrc.com
+- name: BIZ support zoom
+  type: trojan
+  server: support.zoom.us.id4.antonbrc.com
+  port: 443
+  password: ohmd2
+  udp: true
+  sni: id4.antonbrc.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: id4.antonbrc.com
+- name: BIZ support zoom
+  type: trojan
+  server: support.zoom.us.id1.antonbrc.com
+  port: 443
+  password: ohmd1
+  udp: true
+  sni: id1.antonbrc.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: id1.antonbrc.com
+- name: BIZ zoom gov ID4
+  type: trojan
+  server: zoomgov.id4.antonbrc.com
+  port: 443
+  password: ohmd2
+  udp: true
+  sni: id4.antonbrc.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: id4.antonbrc.com
+- name: BIZ zoom gov ID1
+  type: trojan
+  server: zoomgov.id1.antonbrc.com
+  port: 443
+  password: ohmd1
+  udp: true
+  sni: id1.antonbrc.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: id1.antonbrc.com
+- name: BIZ 104.17.3.81 Herza
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: ohmd1
+  udp: true
+  sni: id1.antonbrc.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: id1.antonbrc.com
+- name: BIZ 104.17.3.81 IKD
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: ohmd2
+  udp: true
+  sni: id4.antonbrc.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: id2.antonbrc.com
